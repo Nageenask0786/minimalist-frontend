@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.modal-container {
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  
+
+  .images-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .pataka-image {
+    width: 100%;
+    margin: 0px;
+    margin: 15px;
+    height: 70%;
+   
+  }
+
+  .images-container > div {
+    display: flex;
+    margin: 13px;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+  }
+
+  .images-container > div > img {
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+  }
+
+  .product-details-container {
+   height: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin:15px;
+    width: 35%;
+  }
+
+  .close-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #Cecece;
+    margin: 15px 10px;
+    align-self: flex-start;
+    background-color: transparent;
+  }
+
+  .close-btn-mobile {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #Cecece;
+    margin: 15px 10px;
+    align-self: flex-start;
+    background-color: transparent;
+    display: none;
+  }
+
+
+  .name {
+    font-family: "Roboto";
+font-size: 25px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+margin: 4px;
+padding: 4px;
+  }
+.mrp {
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 28px;
+    text-align: left;
+    margin: 4px;
+    padding: 4px;
+
+}
+
+hr {
+    width: 100%;
+   border: none;
+   border-top: 2px dashed orange;
+    border-spacing: 6px;
+    margin: 15px 0px;
+}
+.product-details-container > h4 {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin: 0px;
+    padding: 4px;
+    color: #000000;
+}
+
+.product-details-container > p {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 0px;
+    padding: 4px;
+}
+
+.choose-now-btn {
+    width: 100%;
+    background: #FE0000;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    border: 0px;
+    height: 40px;
+    margin: 6px 8px;
+}
+
+
+@media screen and (max-width : 576px) {
+    .modal-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        min-height: 80vh;
+
+    }
+    .close-btn-mobile {
+        display: block;
+        margin: 5px;
+        align-self: flex-start;
+    }
+    .choose-now-btn {
+        height: 30px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .close-btn {
+        display: none;
+    }
+
+    .images-container {
+        height: 250px;
+        margin: 0px;
+    }
+    .pataka-image {
+        margin: 5px 0px;
+        height: 200px;
+    }
+
+    .images-container > div {
+        margin: 10px 0px;
+    }
+    .images-container > div > img {
+        margin: 5px 0px;
+    }
+
+    .name,.mrp{
+        font-size: 16px;
+        margin: 5px 0px;
+        padding: 0px;
+    }
+    .product-details-container >h4,.product-details-container >p {
+        font-size: 14px;
+        margin: 5px 0px;
+        padding: 0px;
+    }
+
+    .images-container,.product-details-container {
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .images-container  {
+        height: 20%;
+    }
+}
+

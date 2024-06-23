@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.app-container {
+    
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden
+    ;
+}
+
+.background-image-container {
+    background-image: url("https://res.cloudinary.com/dchxbofyt/image/upload/v1718984260/Beej-Patakha_3_1_4_ku0qgf.png");    height: 500px;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    height: 520px;
+    padding: 0px;
+    background-position: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+   margin: 170px 0px 0px 120px;
+   width: 100%;
+
+}
+.main-heading {
+    font-family: "Roboto";
+font-size: 40px;
+font-weight: 600;
+line-height: 56px;
+color: #FFFFFF;
+width: 50%;
+margin: 0px;
+padding: 0px;
+
+}
+
+.quick-view-btn {
+    margin : 40px 0px 0px 0px;
+    background-color: #FFFFFF;
+    font-family: "Roboto";
+    width: 200px;
+    height: 53px;
+    color: #FE0000;
+    border: 1px solid #FE0000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.heading-frame {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+    color: #f27121;
+    margin: 0px 13px 20px 13px;
+    width: 170px;
+    
+}
+
+.heading-frame > img {
+   height: 9px;
+   width: 35%;
+}
+
+.about-description {
+    font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+width: 80%;
+
+}
+
+span {
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+line-height: 40px;
+text-align: center;
+
+}
+
+.about-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0px;
+}
+.products-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width : 768px) {
+    .main-heading {
+        font-size: 25px;
+        line-height: 36px;
+        width: 100%;
+    }
+    .content {
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .quick-view-btn {
+      width: 150px;
+      font-size: 17px;
+    }
+
+    .heading {
+        font-size: 20px;
+        width: 100px;
+    }
+    .products-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading-frame {
+        width: 80%;
+    }
+}
+
+
