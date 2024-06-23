@@ -5,8 +5,10 @@ Responsive website with a Popup
 Create a responsive website with products and display a popup.
 
 ### Tech Stacks Used
-React.js
-CSS for styling 
+1. React.js
+2. CSS for styling
+3. Figma for design
+4. Vercel for deployment
 
 ### Design File
 https://www.figma.com/design/FTOQ8tQekjdjQDMyrr6bo8/Untitled?node-id=0-1&t=zLRiYi0Xt3Mgqcx0-1
